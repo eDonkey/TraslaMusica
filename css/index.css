@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.left {
+    float: left;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    width: 20%;
+}
+.right {
+    float: left;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    width: 20%;
+}
+.columnmiddle {
+    float: left;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    width: 60%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Center {
+    width:200px;
+    height:200px;
+    position: fixed;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.footer {
+    margin-top: -115px;
+    border: 1px solid red;
+}
