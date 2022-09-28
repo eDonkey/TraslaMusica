@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>||| TRASLASIERRA MUSICA |||</title>
+        <title>||| TRASLASIERRA  MUSICA |||</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
         <meta name="robots" content="index, follow" />
