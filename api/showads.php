@@ -6,7 +6,7 @@ $fecha = new DateTime();
 $fecha->setTimezone(new DateTimeZone('America/Argentina/Buenos_Aires'));
 $current_timestamp = $fecha->getTimestamp();
 $side = $_POST['side'];
-$query = "SELECT * FROM `ads` WHERE inicio < $current_timestamp AND final > $current_timestamp AND side = '$side' LIMIT $amount";
+$query = "SELECT * FROM `ads` WHERE inicio < $current_timestamp AND final IS NULL OR final > $current_timestamp AND side = '$side' LIMIT $amount";
 $result = $mysqli->query($query);
 ?>
 <?php while ($row = $result->fetch_array(MYSQLI_ASSOC)) { 
