@@ -31,9 +31,12 @@ a:hover {
 }
 
 /* Column colors */
-.red {background:#f97171}
-.orange {background:#f99e50}
-.yellow {background:#f5d55f}
+/* .red {background:#f97171} */
+.red {background: transparent;}
+.orange {background:transparent;}
+.yellow {background: transparent;}
+/* .orange {background:#f99e50} */
+/* .yellow {background:#f5d55f} */
 .green {background:#c5ed77}
 .aqua {background:#72f1d4}
 .blue {background:#72c2f1}
